@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.impute import SimpleImputer
 
 # Load your dataset
-data_path = 'C:/DL_Niks/dataset_02052023.csv'  # Change this to your dataset path
+data_path = 'dataset_02052023.csv'  # Change this to your dataset path
 df = pd.read_csv(data_path)
 
 # Display the dataset in the Streamlit app
